@@ -1,0 +1,186 @@
+.container.testimonials__container {
+    width: 50%;
+    padding-bottom: 4rem;
+}
+
+.client__avatar {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.image {
+    border-radius: 0rem;
+    overflow: hidden;
+}
+
+.iframeContent1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 700px;
+   
+}
+
+.iframeContainer1{
+    position: relative;
+    height: 500px;
+    width: 700px;
+    overflow: hidden;
+    border: 1px;
+   
+}
+
+.iframeContent2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 700px;
+   
+}
+
+.iframeContainer2{
+    position: relative;
+    height: 500px;
+    width: 700px;
+    overflow: hidden;
+
+   
+}
+
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+}
+.client__avatar a {
+    font-size: 40px;
+    aspect-ratio: 1/1;
+}
+
+.testimonial {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0rem;
+    user-select: none;
+}
+
+.client__review {
+    color: var(--color-black);
+    font-weight: 300;
+    display: block;
+    width: 90%;
+    margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+    .container.testimonials__container {
+        width: 60%;
+    }
+    .iframeContent1{
+        position: absolute;
+        top: 14px;
+        left: -105px;
+        height: 500px;
+        width: 700px;
+       
+    }
+    
+    .iframeContainer1{
+        position: relative;
+        height: 500px;
+        width: 700px;
+        overflow: hidden;
+        border: 1px;
+       
+    }
+
+    .iframeContent2{
+        position: absolute;
+        top: 10px;
+        left: -4px;
+        height: 500px;
+        width: 700px;
+       
+    }
+    
+    .iframeContainer2{
+        position: relative;
+        height: 500px;
+        width: 700px;
+        overflow: hidden;
+
+       
+    }
+    
+    
+}
+  
+@media screen and (max-width: 600px){
+    .container.testimonials__container {
+        width: var(--container-width-sm);
+    }
+
+    .client__review {
+        width: var(--container-width-sm);
+    }
+
+    .client__name {
+        width: var(--container-width-sm);
+    }
+    .iframeContent1{
+        position: absolute;
+        top: -12px;
+        left: -160px;
+        height: 500px;
+        width: 700px;
+       
+    }
+    
+    .iframeContainer1{
+        position: relative;
+        height: 500px;
+        width: 700px;
+        overflow: hidden;
+
+       
+    }
+    
+
+    .iframeContent2{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 600px;
+        width: 415px;
+       
+    }
+    
+    .iframeContainer2{
+        position: relative;
+        height: 500px;
+        width: 700px;
+
+
+       
+    }
+    
+}
