@@ -148,7 +148,7 @@ export default function Web() {
         
           <div className="testimonial" >
           <div className="client__avatar">
-            <a href="hhttps://diary-edb52.firebaseapp.com/login" target="_blank" rel="noreferrer">
+            <a href="https://diary-edb52.firebaseapp.com/login" target="_blank" rel="noreferrer">
             <BsGlobe2/>
             </a>
             
